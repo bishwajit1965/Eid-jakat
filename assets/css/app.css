@@ -1,0 +1,262 @@
+/* Global font Poppins
+======================*/
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Global styles begins
+======================*/
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+html {
+  font-size: 62%;
+}
+:root {
+  --green: #27ae60;
+  --deep-green: #0ad2aa;
+  --black: #444;
+  --lightgrey: #ddd;
+  --light-color: #777;
+  --bg-color: #e6e6e6;
+  --primary: #00ff00;
+  --secondary: #075f07;
+  --background: #edeff0;
+  --border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  --border-thick: 2px solid#F1F1F1;
+  --border-thick-black: 2px solid#333;
+  --button: #8d0f0f;
+  --box-shadow: 0.4rem 0.4rem 1rem #ccc, -0.4rem -0.4rem 1rem #fff;
+  --box-shadow-inset: 0.4rem 0.4rem 1rem #ccc inset,
+    -0.4rem -0.4rem 1rem #fff inset;
+  --orangered: #ff4500;
+  --orange: #ef233c;
+  --darkorange: #ff8c00;
+  --white-color: #fff;
+}
+
+/* Header area styles
+====================== */
+.header {
+  background-image: url("../images/pexels-alexas-fotos-9680337.jpg");
+  background-position: center;
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header > .text-box-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+}
+.header > .text-box-wrapper .text-box {
+  width: 100%;
+  color: #fff;
+}
+
+.header > .text-box-wrapper > .text-box > h1 {
+  margin: 0rem 0rem 0rem 10rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header > .text-box-wrapper > .text-box > p {
+  margin: 0rem 0rem 0rem 10rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Nav bar section styles
+========================= */
+
+/* Main content area styles begin
+================================= */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+section {
+  height: 27rem;
+  margin: 4rem 10rem;
+}
+
+/* Text box area */
+.donation > .flex-container > .text-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  height: 25rem;
+}
+
+.donation > .flex-container > .text-box {
+  width: 50%;
+  padding: 0rem 2rem 0rem 0rem;
+}
+
+.donation > .flex-container > .text-box > h1 {
+  color: var(--black);
+  font-size: 3rem;
+  line-height: 3.5rem;
+  text-transform: none;
+}
+
+.donation > .flex-container > .text-box > p {
+  margin: 2.5rem 0rem 0rem 0rem;
+  text-align: justify;
+}
+
+.donation > .flex-container > .text-box > a {
+  width: 60%;
+  margin: 2.4rem 0rem 0rem 0rem;
+  background-color: #f02648;
+  width: 9rem;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+
+.donation > .flex-container > .text-box > a:hover {
+  color: #fff;
+  background-color: red;
+  font-weight: 450px;
+  background-image: linear-gradient();
+}
+
+/* Image box area */
+.donation > .flex-container > .image-box {
+  width: 50%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+  padding: 0rem 0rem 0rem 2rem;
+}
+
+.donation > .flex-container > .image-box > figure {
+  width: 100%;
+}
+
+.donation > .flex-container > .image-box > figure > figcaption {
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+.donation > .flex-container > .image-box > figure > img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 25rem;
+  margin: 0rem 0rem 0rem 0rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  align-items: end;
+}
+
+/* Protect-them section styles
+============================== */
+
+.protect-them > .flex-container > .text-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: center;
+  align-items: end;
+  height: 25rem;
+}
+
+.protect-them > .flex-container > .text-box {
+  width: 50%;
+  padding: 0rem 0rem 0rem 2rem;
+}
+
+.protect-them > .flex-container > .text-box > h1 {
+  color: var(--black);
+  font-size: 3rem;
+  line-height: 3.5rem;
+  text-transform: none;
+}
+
+.protect-them > .flex-container > .text-box > p {
+  margin: 2.5rem 0rem 0rem 0rem;
+  text-align: justify;
+}
+
+.protect-them > .flex-container > .text-box > a {
+  width: 60%;
+  margin: 2.4rem 0rem 0rem 0rem;
+  background-color: #f02648;
+  width: 9rem;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+
+.protect-them > .flex-container > .text-box > a:hover {
+  color: #fff;
+  background-color: red;
+  font-weight: 600;
+  background-image: linear-gradient();
+}
+
+/* Image box area */
+.protect-them > .flex-container > .image-box {
+  width: 50%;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem 0rem 0rem;
+}
+
+.protect-them > .flex-container > .image-box > figure {
+  width: 100%;
+}
+
+.protect-them > .flex-container > .image-box > figure > figcaption {
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+.protect-them > .flex-container > .image-box > figure > img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 25rem;
+  margin: 0rem 0rem 0rem 0rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  align-items: end;
+}
+
+/* Footer styles
+================ */
+.footer {
+  padding: 2rem;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+}
+.footer h2 {
+  font-weight: bold;
+  color: var(--orange);
+}

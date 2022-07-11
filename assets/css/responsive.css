@@ -1,0 +1,125 @@
+@media (max-width: 375px) {
+  html {
+    font-size: 55%;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0rem;
+    width: 100%;
+  }
+  .header {
+    height: 30rem;
+  }
+  .header .text-box-wrapper .text-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+  }
+  .header .text-box-wrapper .text-box h1 {
+    text-align: center;
+    margin: 0rem;
+  }
+  .header .text-box-wrapper .text-box p {
+    text-align: center;
+    margin: 0rem;
+    font-size: 1.5rem;
+  }
+  section {
+    width: 100%;
+    margin: 0;
+    padding: 0rem 1rem;
+    height: 60rem;
+  }
+  .donation .flex-container .text-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35rem;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+  }
+  .donation .flex-container .text-box h1 {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  .donation .flex-container .text-box p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .text-box > a {
+    display: flex;
+    flex-flow: column;
+    /* height: 30px; */
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0rem;
+  }
+  .donation .flex-container .image-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 23rem;
+    padding: 0rem 0rem;
+  }
+  .donation .flex-container .image-box figure img {
+    width: 100%;
+    height: 23rem;
+    margin: 0rem 0rem;
+    display: block;
+  }
+
+  .protect-them .flex-container .text-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35rem;
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .protect-them .flex-container .text-box h1 {
+    text-align: center;
+  }
+
+  .protect-them .flex-container .text-box p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .protect-them .flex-container .image-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 23rem;
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .protect-them .flex-container .image-box figure img {
+    width: 100%;
+    height: 23rem;
+    background-position: 100% 100%;
+    margin: 4rem 0rem 0rem 0rem;
+  }
+  figcaption {
+    font-size: 1.5rem;
+  }
+}
