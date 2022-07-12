@@ -18,23 +18,12 @@
 body {
   background-image: url("../pattern/pattern-1.png");
 }
+
 html {
   font-size: 100%;
 }
 :root {
-  --green: #27ae60;
-  --deep-green: #0ad2aa;
-  --black: #444;
-  --lightgrey: #ddd;
-  --light-color: #777;
-  --bg-color: #e6e6e6;
-  --primary: #00ff00;
-  --secondary: #075f07;
-  --background: #edeff0;
-  --border: 0.1rem solid rgba(0, 0, 0, 0.2);
-  --border-thick: 2px solid#F1F1F1;
-  --border-thick-black: 2px solid#333;
-  --button: #8d0f0f;
+  --black: #222;
   --box-shadow: 0.4rem 0.4rem 1rem #ccc, -0.4rem -0.4rem 1rem #fff;
   --box-shadow-inset: 0.4rem 0.4rem 1rem #ccc inset,
     -0.4rem -0.4rem 1rem #fff inset;
@@ -47,30 +36,30 @@ html {
 /* Header area styles
 ====================== */
 .header {
-  background-image: url("../images/img-17.jpg");
+  background-image: url("../images/img-4.jpg");
   background-position: center;
   height: 30rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 100% 100%;
+  background-position: center;
+  height: auto;
   position: relative;
 }
 .message-box {
   position: absolute;
   background-color: #444;
   color: #fff;
-  right: 1.5rem;
-  bottom: 1.5rem;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 0.5rem;
-}
-.message-box > h2 {
-  font-family: "Austein Script";
-  font-weight: 500;
-  font-size: 2.5rem;
-  color: var(--white-color);
+  right: 0rem;
+  bottom: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.2rem;
   padding: 1rem;
+}
+.message-box > h3 {
+  font-family: "Austein Script";
+  font-size: 2rem;
+  color: var(--white-color);
 }
 .header > .text-box-wrapper {
   display: flex;
@@ -87,15 +76,17 @@ html {
 
 .header > .text-box-wrapper > .text-box > h1 {
   margin: 0rem 0rem 1.5rem 10rem;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
+  width: 50%;
 }
 
 .header > .text-box-wrapper > .text-box > p {
   margin: 0rem 0rem 2.5rem 10rem;
   font-size: 1rem;
   font-weight: 400;
+  width: 40%;
 }
 .header > .text-box-wrapper > .text-box > a {
   margin: 0rem 0rem 3rem 10rem;
@@ -146,8 +137,8 @@ section {
 
 .donation > .flex-container > .text-box > h1 {
   color: var(--black);
-  font-size: 3rem;
-  line-height: 3.5rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
   text-transform: none;
 }
 
@@ -227,8 +218,8 @@ section {
 
 .protect-them > .flex-container > .text-box > h1 {
   color: var(--black);
-  font-size: 3rem;
-  line-height: 3.5rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
   text-transform: none;
 }
 
@@ -292,8 +283,11 @@ section {
 /* Donation option styles
 ========================= */
 .donation-option > h1 {
-  text-align: center;
+  color: var(--black);
   font-size: 2.5rem;
+  line-height: 3rem;
+  text-transform: none;
+  text-align: center;
 }
 
 .donation-option > p {
@@ -309,16 +303,19 @@ section {
   width: 100%;
 }
 
-.donation-option .flex-container .content-box {
+.donation-option > .flex-container > .content-box {
   height: 14rem;
   width: 48%;
   margin: 1rem 1rem 0.2rem 0rem;
   background-color: #fef4f5;
   border-radius: 0.5rem;
 }
-.donation-option > h1 {
-  text-align: center;
-  font-size: 2.5rem;
+.donation-option > .flex-container > .content-box > .text-box h1 {
+  font-size: 1.3rem;
+  color: var(--black);
+  line-height: 2rem;
+  text-transform: none;
+  margin: 0rem 0rem 1rem 0rem;
 }
 
 .content-box {
@@ -347,6 +344,9 @@ section {
 .charity > h1 {
   text-align: center;
   font-size: 2.5rem;
+  line-height: 3rem;
+  text-transform: none;
+  color: var(--black);
 }
 
 .photo-gallery .flex-container .img-gallery {
@@ -358,8 +358,10 @@ section {
 
 .photo-gallery .flex-container .img-gallery img {
   width: 100%;
-  height: 18rem;
+  height: 18.5rem;
   cursor: pointer;
+  background-size: cover;
+  background-position: center;
   border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
@@ -373,10 +375,8 @@ section {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .photo-gallery .flex-container .img-gallery > figure > a > figcaption {
-  /* padding-left: 25%; */
-  /* padding-right: 25%; */
   text-align: center;
-  background-color: #333;
+  background-color: var(--black);
   color: #fff;
 }
 
@@ -435,7 +435,7 @@ section {
 ================ */
 .footer {
   padding: 2rem;
-  background-color: #222;
+  background-color: var(--black);
   color: #fff;
   text-align: center;
 }
@@ -444,4 +444,8 @@ section {
   font-weight: 500;
   font-size: 2.5rem;
   color: var(--orange);
+}
+.footer p {
+  font-style: italic;
+  text-transform: none;
 }
