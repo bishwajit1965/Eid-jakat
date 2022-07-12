@@ -11,9 +11,6 @@
     margin: 0rem 0rem;
     width: 100%;
   }
-  .header {
-    height: 30rem;
-  }
   .header .text-box-wrapper .text-box {
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +33,7 @@
     width: 100%;
     margin: 0;
     padding: 0rem 1rem;
-    height: 60rem;
+    /* height: 60rem; */
   }
   .donation .flex-container .text-box {
     display: flex;
@@ -96,6 +93,7 @@
   }
   .protect-them .flex-container .text-box h1 {
     text-align: center;
+    margin: 4rem 0rem 0rem 0rem;
   }
 
   .protect-them .flex-container .text-box p {
@@ -119,7 +117,62 @@
     background-position: 100% 100%;
     margin: 4rem 0rem 0rem 0rem;
   }
+
   figcaption {
     font-size: 1.5rem;
+  }
+  /* Donation option media queries
+================================ */
+  .donation-option > p {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .donation-option .flex-container .content-box {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .donation-option .flex-container .content-box > .img-box {
+    width: 20%;
+  }
+
+  .donation-option .flex-container .content-box > .img-box > img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .donation-option .flex-container .content-box > .text-box {
+    width: 80%;
+  }
+  .donation-option > .flex-container > .content-box > .text-box > p {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  /* Photo gallery media  queries
+  =============================== */
+  .photo-gallery > .flex-container > .img-gallery {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin: 1rem 0rem;
+  }
+  /* Charity media qua
+  ============================== */
+  .charity > .flex-container > .img-gallery {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin: 1rem 0rem;
+  }
+  .charity > .flex-container > .img-gallery > .img-description > p {
+    font-size: 1.5rem;
+  }
+  .charity > p {
+    font-size: 1.5rem;
+    width: 100%;
   }
 }
