@@ -114,12 +114,14 @@ html {
   align-items: center;
   width: 100%;
 }
-
+/* Section styles
+================= */
 section {
-  margin: 4rem 10rem;
+  margin: 3rem 10rem;
 }
 
-/* Text box area */
+/* Donation styles
+================== */
 .donation > .flex-container > .text-box {
   display: flex;
   flex-wrap: wrap;
@@ -142,7 +144,7 @@ section {
 }
 
 .donation > .flex-container > .text-box > p {
-  margin: 2.5rem 0rem 0rem 0rem;
+  margin: 1.5rem 0rem 0rem 0rem;
   text-align: justify;
 }
 
@@ -163,10 +165,9 @@ section {
   color: #fff;
   background-color: red;
   font-weight: 600px;
-  background-image: linear-gradient();
+  background-image: linear-gradient(to right, #ff0000, #f83d36);
 }
 
-/* Image box area */
 .donation > .flex-container > .image-box {
   width: 50%;
   display: flex;
@@ -198,6 +199,7 @@ section {
 .donation > .flex-container > .image-box img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
+
 /* Protect-them section styles
 ============================== */
 
@@ -223,7 +225,7 @@ section {
 }
 
 .protect-them > .flex-container > .text-box > p {
-  margin: 2.5rem 0rem 0rem 0rem;
+  margin: 1.5rem 0rem 0rem 0rem;
   text-align: justify;
 }
 
@@ -243,14 +245,13 @@ section {
   color: #fff;
   background-color: red;
   font-weight: 600;
-  background-image: linear-gradient();
+  background-image: linear-gradient(to right, #ff0000, #f83d36);
 }
 
 .protect-them > .flex-container > .image-box img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Image box area */
 .protect-them > .flex-container > .image-box {
   width: 50%;
   height: 30rem;
@@ -339,6 +340,7 @@ section {
 .donation-option .flex-container .content-box {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
+
 /* Photo gallery styles
 ======================= */
 .charity > h1 {
@@ -386,35 +388,34 @@ section {
   text-align: center;
   font-size: 2.5rem;
   line-height: 3rem;
-  margin: 0rem 0rem 1.5rem 0rem;
 }
 
 .charity > p {
   text-align: center;
   width: 60%;
-  margin: 1rem auto;
+  margin: auto;
 }
-.charity .flex-container .img-gallery {
+.charity > .flex-container > .img-gallery {
   width: 31.7%;
   border: 0.1rem solid#ccc;
   margin: 0rem 1rem 0rem 0rem;
   border-radius: 0.5rem;
 }
-.charity .flex-container .img-gallery img {
+.charity > .flex-container > .img-gallery > img {
   width: 100%;
   height: 18rem;
   cursor: pointer;
   border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
-.charity .flex-container .img-gallery .img-description {
+.charity > .flex-container > .img-gallery > .img-description {
   padding: 1rem;
   background-position: center;
   background-size: cover;
 }
-.charity .flex-container .img-gallery .img-description p {
+.charity > .flex-container > .img-gallery > .img-description > p {
   margin: 1rem 0rem;
 }
-.charity .flex-container .img-gallery .img-description > a {
+.charity > .flex-container > .img-gallery > .img-description > a {
   background-color: #f02648;
   padding: 0.3rem 1rem;
   border-radius: 0.5rem;
@@ -423,16 +424,17 @@ section {
   font-weight: 600;
 }
 
-.charity .flex-container .img-gallery .img-description > a:hover {
+.charity > .flex-container > .img-gallery > .img-description > a:hover {
   color: #fff;
   background-color: red;
   font-weight: 700px;
-  background-image: linear-gradient(to right, #ff0000, #f83d36);
+  background-image: linear-gradient(to right, #ff0000, #fa433c);
 }
 
-.charity .flex-container .img-gallery {
+.charity > .flex-container > .img-gallery {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
+
 /* Footer styles
 ================ */
 .footer {

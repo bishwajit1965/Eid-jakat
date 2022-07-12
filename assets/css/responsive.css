@@ -11,6 +11,9 @@
     margin: 0rem 0rem;
     width: 100%;
   }
+
+  /*Header media queries
+  ======================= */
   .header .text-box-wrapper .text-box {
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +23,7 @@
     padding: 1rem;
     width: 100%;
   }
+
   .header .text-box-wrapper .text-box h1 {
     text-align: center;
     margin: 0rem;
@@ -45,6 +49,9 @@
     margin: 0;
     padding: 0rem 1rem;
   }
+
+  /* Donation media queries
+  ========================= */
   .donation .flex-container .text-box {
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +97,8 @@
     margin: 0rem 0rem 1rem 0rem;
   }
 
+  /* Protect them media queries
+  ============================ */
   .protect-them .flex-container .text-box {
     display: flex;
     flex-wrap: wrap;
@@ -131,8 +140,9 @@
   figcaption {
     font-size: 1.5rem;
   }
+
   /* Donation option media queries
-================================ */
+  ================================ */
   .donation-option > p {
     width: 100%;
     font-size: 1.5rem;
@@ -170,6 +180,7 @@
     width: 100%;
     margin: 1rem 0rem;
   }
+
   /* Charity media qua
   ============================== */
   .charity > .flex-container > .img-gallery {
