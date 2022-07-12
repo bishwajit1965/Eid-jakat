@@ -67,7 +67,6 @@
   .text-box > a {
     display: flex;
     flex-flow: column;
-    /* height: 30px; */
     flex-wrap: wrap;
     align-content: flex-start;
     margin: 0rem;
@@ -186,11 +185,4 @@
     font-size: 1.5rem;
     width: 100%;
   }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-  ...;
-}
-@media (min-width: 480px) and (max-width: 767px) {
-  ...;
 }
