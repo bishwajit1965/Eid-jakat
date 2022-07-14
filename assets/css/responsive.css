@@ -196,4 +196,16 @@
     font-size: 1.5rem;
     width: 100%;
   }
+
+  /* Contact form styles
+  ======================= */
+  .contact-us .flex-container .contact-form {
+    width: 100%;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+  }
+  .contact-us .flex-container .contact-form .input-field {
+    padding: 1rem;
+  }
 }
