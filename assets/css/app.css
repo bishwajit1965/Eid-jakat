@@ -69,6 +69,7 @@ html {
   font-size: 2rem;
   color: var(--white-color);
 }
+
 .header > .text-box-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -181,6 +182,7 @@ section {
 }
 
 .donation > .flex-container > .image-box {
+  position: relative;
   width: 50%;
   display: flex;
   flex-flow: row;
@@ -188,6 +190,20 @@ section {
   align-items: center;
   height: 30rem;
   padding: 0rem 0rem 0rem 2rem;
+}
+
+.donation > .flex-container > .image-box > .icon-box {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.donation > .flex-container > .image-box > .icon-box > img {
+  z-index: 1;
+  width: 6rem;
+  height: 5rem;
 }
 
 .donation > .flex-container > .image-box > figure {
@@ -199,9 +215,8 @@ section {
 }
 
 .donation > .flex-container > .image-box > figure > img {
-  background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 25rem;
   margin: 0rem 0rem 0rem 0rem;
   width: 100%;
@@ -220,7 +235,6 @@ section {
   flex-wrap: wrap;
   flex-flow: column;
   justify-content: center;
-  align-items: end;
   height: 25rem;
 }
 
@@ -464,6 +478,7 @@ section {
   margin: 2rem 0rem;
   color: var(--black);
 }
+
 .contact-us .flex-container .contact-form {
   width: 80%;
   padding: 1.5rem 2rem;
@@ -515,6 +530,7 @@ section {
   text-align: center;
   margin-top: 5rem;
 }
+
 .footer h2 {
   font-family: "Austein Script";
   font-weight: 500;
@@ -522,6 +538,7 @@ section {
   color: var(--orange);
   text-transform: none;
 }
+
 .footer p {
   font-style: italic;
   text-transform: none;
